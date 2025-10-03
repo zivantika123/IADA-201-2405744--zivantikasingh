@@ -292,3 +292,8 @@ if uploaded_file:
     if st.button("Clear History"):
         st.session_state["history"] = []
 
+st.markdown("""
+    <div class='footer'>
+        <p class='footer-text'>Made by Pravar Golecha</p>
+    </div>
+""", unsafe_allow_html=True)
